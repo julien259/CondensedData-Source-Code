@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "condenseddata",
+  "version": "1.0.0",
+  "name": "CondensedData",
+  "description": "Optimizes server performance through intelligent network throttling and data deduplication.",
+  "authors": [
+    "julien"
+  ],
+  "contact": {
+    "sources": "https://github.com/yourusername/CondensedData"
+  },
+  "license": "MIT",
+  "icon": "assets/condenseddata/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.CondensedData"
+    ]
+  },
+  "mixins": [
+    "condenseddata.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21"
+  }
+}
